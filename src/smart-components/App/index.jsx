@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import Sendbird from '../../lib/Sendbird';
 
 import ChannelList from '../ChannelList';
-import Conversation from '../Conversation';
+import Channel from '../Channel';
 import ChannelSettings from '../ChannelSettings';
 import MessageSearchPannel from '../MessageSearch/messageSearchPannel';
 
@@ -83,7 +83,7 @@ export default function App(props) {
             sendbird-app__conversation-wrap
           `}
         >
-          <Conversation
+          <Channel
             channelUrl={currentChannelUrl}
             onChatHeaderActionClick={() => {
               setShowSearch(false);

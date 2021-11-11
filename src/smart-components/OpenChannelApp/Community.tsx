@@ -4,8 +4,8 @@ import './community.scss';
 import './theme.scss';
 
 import Sendbird from '../../lib/Sendbird';
-import OpenChannel from '../OpenchannelConversation';
-import OpenChannelSettings from '../OpenChannelSettings';
+import OpenChannel from '../OpenChannel';
+import OpenChannelSettings from '../LegacyOpenChannelSettings';
 import CommunityChannelList from './components/CommunityChannelList';
 
 interface Props {

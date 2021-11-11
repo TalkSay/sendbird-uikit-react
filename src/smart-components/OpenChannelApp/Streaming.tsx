@@ -8,8 +8,8 @@ import './theme.scss';
 
 import Sendbird from '../../lib/Sendbird';
 
-import OpenChannel from '../OpenchannelConversation';
-import OpenChannelSettings from '../OpenChannelSettings';
+import OpenChannel from '../OpenChannel';
+import OpenChannelSettings from '../LegacyOpenChannelSettings';
 
 import ChannelList from './components/StreamingChannelList';
 import DummyStream from './components/DummyStream';

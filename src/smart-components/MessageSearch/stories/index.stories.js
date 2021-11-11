@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Sendbird from '../../../lib/Sendbird';
 import MessageSearch from '../index';
 import MessageSearchPannel from '../messageSearchPannel';
-import Conversation from '../../Conversation';
+import Channel from '../../Channel';
 
 export default { title: 'MessageSearch' };
 
@@ -31,7 +31,7 @@ export const normal = () => {
             width: '50vw',
             height: '100vh',
           }}>
-            <Conversation
+            <Channel
               channelUrl={channelUrl}
             />
           </div>
