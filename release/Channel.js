@@ -1,14 +1,14 @@
-import { e as _toConsumableArray, f as format, a as _objectSpread2, u as uuidv4, b as _slicedToArray, h as _defineProperty, c as LocalizationContext, i as _inherits, j as _createSuper, k as _createClass, l as _classCallCheck, m as _assertThisInitialized, w as withSendbirdContext } from './LocalizationContext-d5fada84.js';
+import { e as _toConsumableArray, f as format, a as _objectSpread2, u as uuidv4, b as _slicedToArray, h as _defineProperty, c as LocalizationContext, i as _inherits, j as _createSuper, k as _createClass, l as _classCallCheck, m as _assertThisInitialized, w as withSendbirdContext } from './LocalizationContext-0706131f.js';
 import React__default, { useEffect, useCallback, useRef, useMemo, useContext, useState, useLayoutEffect, Component, useReducer } from 'react';
 import PropTypes from 'prop-types';
-import { k as SEND_USER_MESSAGE, S as SEND_MESSAGE_START, l as SEND_FILE_MESSAGE, j as UPDATE_USER_MESSAGE, D as DELETE_MESSAGE, E as EmojiListItems, C as ContextMenu, I as IconButton, b as MenuItems, c as MenuItem, a as TextButton, U as UserProfileContext, f as ConnectedUserProfile, M as Modal, d as ButtonTypes, h as UserProfileProvider } from './index-ab441eb9.js';
-import { a as getOutgoingMessageStates, b as getSendingMessageStatus, c as filterMessageListParams, d as isSentStatus, e as getMessageCreatedAt$1, h as isUserMessage, j as isFailedMessage, k as isPendingMessage, l as isSentMessage, m as getClassName, n as copyToClipboard, o as getEmojiListAll, p as getEmojiMapAll, q as isReactedBy, r as getEmojiTooltipString, s as isEditedMessage, u as getUIKitFileType, t as truncateString, v as isVideoMessage, w as isGifMessage, x as isUrl, y as getUIKitFileTypes, z as isThumbnailMessage, A as isVideo, B as isGif, C as isFileMessage, D as isSupportedFileView, E as getUIKitMessageTypes, F as getSenderName, G as getOutgoingMessageState, H as isTextMessage, I as isOGMessage, J as getUIKitMessageType, K as isImageMessage, L as isAudioMessage } from './index-b15036e3.js';
-import { c as compareIds, L as LinkLabel, D as DateSeparator, M as MessageInput, F as FileViewer } from './index-75e1084c.js';
-import { h as ImageRenderer, I as Icon, c as IconTypes, d as IconColors, e as Loader, L as Label, a as LabelTypography, b as LabelColors, A as Avatar, P as PlaceHolder, i as PlaceHolderTypes, g as LabelStringSet } from './index-47b62cb1.js';
-import { i as isSameDay } from './index-06810a72.js';
-import { C as ChannelAvatar } from './index-8a0efa84.js';
+import { k as SEND_USER_MESSAGE, S as SEND_MESSAGE_START, l as SEND_FILE_MESSAGE, j as UPDATE_USER_MESSAGE, D as DELETE_MESSAGE, E as EmojiListItems, C as ContextMenu, I as IconButton, b as MenuItems, c as MenuItem, a as TextButton, U as UserProfileContext, f as ConnectedUserProfile, M as Modal, d as ButtonTypes, h as UserProfileProvider } from './index-b18b97bb.js';
+import { a as getOutgoingMessageStates, b as getSendingMessageStatus, c as filterMessageListParams, d as isSentStatus, e as getMessageCreatedAt$1, h as isUserMessage, j as isFailedMessage, k as isPendingMessage, l as isSentMessage, m as getClassName, n as copyToClipboard, o as getEmojiListAll, p as getEmojiMapAll, q as isReactedBy, r as getEmojiTooltipString, s as isEditedMessage, u as getUIKitFileType, t as truncateString, v as isVideoMessage, w as isGifMessage, x as isUrl, y as getUIKitFileTypes, z as isThumbnailMessage, A as isVideo, B as isGif, C as isFileMessage, D as isSupportedFileView, E as getUIKitMessageTypes, F as getSenderName, G as getOutgoingMessageState, H as isTextMessage, I as isOGMessage, J as getUIKitMessageType, K as isImageMessage, L as isAudioMessage } from './index-e56b9347.js';
+import { c as compareIds, L as LinkLabel, D as DateSeparator, M as MessageInput, F as FileViewer } from './index-5ad621ab.js';
+import { h as ImageRenderer, I as Icon, c as IconTypes, d as IconColors, e as Loader, L as Label, a as LabelTypography, b as LabelColors, A as Avatar, P as PlaceHolder, i as PlaceHolderTypes, g as LabelStringSet } from './index-08daed76.js';
+import { i as isSameDay } from './index-e12c5161.js';
+import { C as ChannelAvatar } from './index-57007992.js';
 import 'react-dom';
-import './utils-fe289e88.js';
+import './utils-abe8a8c1.js';
 
 var RESET_MESSAGES = 'RESET_MESSAGES';
 var RESET_STATE = 'RESET_STATE';

@@ -1,11 +1,11 @@
 'use strict';
 
-var LocalizationContext = require('./LocalizationContext-f73c00a4.js');
+var LocalizationContext = require('./LocalizationContext-4067d222.js');
 var React = require('react');
 var PropTypes = require('prop-types');
 var Sb = require('sendbird');
-var actionTypes = require('./actionTypes-3901ce3e.js');
-var index = require('./index-3b88e2d0.js');
+var actionTypes = require('./actionTypes-e88b0b1d.js');
+var index = require('./index-0091f7a3.js');
 var cssVars = require('css-vars-ponyfill');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
