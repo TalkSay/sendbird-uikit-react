@@ -1,0 +1,3 @@
+[submodule "SendBird-SDK-JavaScript"]
+	path = SendBird-SDK-JavaScript
+	url = git@github.com:TalkSay/SendBird-SDK-JavaScript.git
