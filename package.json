@@ -53,7 +53,7 @@
     "css-vars-ponyfill": "^2.3.2",
     "date-fns": "^2.16.1",
     "prop-types": "^15.7.2",
-    "sendbird": "https://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@github.com/TalkSay/SendBird-SDK-JavaScript"
+    "sendbird": "https://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@github.com/TalkSay/SendBird-SDK-JavaScript"
   },
   "bugs": {
     "url": "https://community.sendbird.com"
